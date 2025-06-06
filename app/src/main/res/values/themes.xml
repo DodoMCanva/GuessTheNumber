@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuessTheNumber" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navyblue</item>
+        <item name="colorPrimaryVariant">@color/darkblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mustard</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.GuessTheNumber" parent="Base.Theme.GuessTheNumber" />
+</resources>
